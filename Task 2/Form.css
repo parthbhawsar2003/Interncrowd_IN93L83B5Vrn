@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    /* margin-top: 20%; */
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+   
+}
+.fom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
+}
+.fom label{
+margin: 3%;
+}
+.fom input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+}
+.btn{
+   
+   height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
